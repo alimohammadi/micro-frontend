@@ -8,3 +8,5 @@ for (let index = 0; index < 3; index++) {
   products += `<div>${name}</div>`;
 }
 console.log(products);
+
+document.querySelector("#dev-products").innerHTML = products;
